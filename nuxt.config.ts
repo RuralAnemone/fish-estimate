@@ -4,7 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    keepalive: true
+    keepalive: true,
+    pageTransition: {
+      duration: 1000
+    }
   },
 
   modules: [

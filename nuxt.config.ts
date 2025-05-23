@@ -5,7 +5,10 @@ export default defineNuxtConfig({
 
   app: {
     keepalive: true,
-    pageTransition: true
+    pageTransition: {
+      name: "page",
+      mode: "out-in"
+    }
   },
 
   modules: [

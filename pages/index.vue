@@ -1,5 +1,5 @@
 <template>
 	<div>
-		<p>home, see <NuxtLink to="load">example</NuxtLink> <NuxtLink to="estimate">estimate</NuxtLink> <NuxtLink to="count">count! (this is before estimate)</NuxtLink></p>
+		<p>home, see <ULink to="load">example</ULink> <ULink to="estimate">estimate</ULink> <ULink to="count">count! (this is before estimate)</ULink></p>
 	</div>
 </template>

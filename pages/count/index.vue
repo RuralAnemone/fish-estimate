@@ -1,3 +1,5 @@
 <template>
-	<p>counting page</p>
+	<EstimateApp>
+		<p>counting page</p>
+	</EstimateApp>
 </template>

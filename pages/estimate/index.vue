@@ -1,3 +1,5 @@
 <template>
-	<p>finalize the estimate</p>
+	<EstimateApp>
+		<p>finalize the estimate</p>
+	</EstimateApp>
 </template>

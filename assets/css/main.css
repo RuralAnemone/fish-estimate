@@ -1,2 +1,81 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+/* generated using #E51837. analogous is ±30º */
+@theme static {
+	--color-primary-50: #ffebf0;
+	--color-primary-100: #ffcdd6;
+	--color-primary-200: #f899a0;
+	--color-primary-300: #f2707a;
+	--color-primary-400: #ff4a58;
+	--color-primary-500: #ff313e;
+	--color-primary-600: #f7263d;
+	--color-primary-700: #e51837;
+	--color-primary: var(--color-primary-700);
+	--color-primary-800: #d8092f;
+	--color-primary-900: #ca0022;
+
+	--color-complementary-50: #d6f9f3;
+	--color-complementary-100: #95efdd;
+	--color-complementary-200: #18e5c6;
+	--color-complementary: var(--color-complementary-200);
+	--color-complementary-300: #00d6ae;
+	--color-complementary-400: #00c89c;
+	--color-complementary-500: #00ba8a;
+	--color-complementary-600: #00ac7c;
+	--color-complementary-700: #009a6b;
+	--color-complementary-800: #00895c;
+	--color-complementary-900: #006b3d;
+
+	--color-analogous-1-50: #f9e2f2;
+	--color-analogous-1-100: #f0b7df;
+	--color-analogous-1-200: #e988c8;
+	--color-analogous-1-300: #e553b1;
+	--color-analogous-1-400: #e5189d;
+	--color-analogous-1: var(--color-analogous-1-400);
+	--color-analogous-1-500: #e70087;
+	--color-analogous-1-600: #d50082;
+	--color-analogous-1-700: #be007b;
+	--color-analogous-1-800: #a80075;
+	--color-analogous-1-900: #7e006a;
+
+	--color-analogous-2-50: #fff4e2;
+	--color-analogous-2-100: #ffe3b7;
+	--color-analogous-2-200: #ffd188;
+	--color-analogous-2-300: #ffbe5a;
+	--color-analogous-2-400: #ffb039;
+	--color-analogous-2-500: #ffa225;
+	--color-analogous-2-600: #fc9622;
+	--color-analogous-2-700: #f5871e;
+	--color-analogous-2-800: #ef781c;
+	--color-analogous-2-900: #e56018;
+	--color-analogous-2: var(--color-analogous-2-900);
+
+	--color-triadic-1-50: #fcfbe4;
+	--color-triadic-1-100: #f7f3be;
+	--color-triadic-1-200: #f2eb93;
+	--color-triadic-1-300: #ece367;
+	--color-triadic-1-400: #e9de46;
+	--color-triadic-1-500: #e6d81f;
+	--color-triadic-1-600: #e5c618;
+	--color-triadic-1: var(--color-triadic-1-600);
+	--color-triadic-1-700: #e4af0c;
+	--color-triadic-1-800: #e29700;
+	--color-triadic-1-900: #de6f00;
+
+	--color-triadic-2-50: #edfde8;
+	--color-triadic-2-100: #d1f9c5;
+	--color-triadic-2-200: #b0f59e;
+	--color-triadic-2-300: #8aef72;
+	--color-triadic-2-400: #65ea4b;
+	--color-triadic-2-500: #37e518;
+	--color-triadic-2: var(--color-triadic-2-500);
+	--color-triadic-2-600: #17d40c;
+	--color-triadic-2-700: #00be00;
+	--color-triadic-2-800: #00aa00;
+	--color-triadic-2-900: #008600;
+}
+
+:root {
+	
+}

@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<EstimateApp>
 		<p>load your previous estimates here</p>
-	</div>
+	</EstimateApp>
 </template>

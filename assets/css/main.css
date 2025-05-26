@@ -2,7 +2,7 @@
 @import "@nuxt/ui";
 
 /* generated using #E51837. analogous is ±30º */
-@theme static {
+/* @theme static {
 	--color-primary-50: #ffebf0;
 	--color-primary-100: #ffcdd6;
 	--color-primary-200: #f899a0;
@@ -74,8 +74,13 @@
 	--color-triadic-2-700: #00be00;
 	--color-triadic-2-800: #00aa00;
 	--color-triadic-2-900: #008600;
-}
+} */
 
-:root {
-	
-}
+/* :root {
+	--ui-primary: var(--ui-color-primary-500);
+	--ui-secondary: var(--ui-color-secondary-500);
+	--ui-success: var(--ui-color-success-500);
+	--ui-info: var(--ui-color-info-500);
+	--ui-warning: var(--ui-color-warning-500);
+	--ui-error: var(--ui-color-error-500);
+} */

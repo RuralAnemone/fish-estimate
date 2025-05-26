@@ -7,8 +7,8 @@
 	<EstimateApp>
 		<ULink to="load">click me :3</ULink>
 		<USeparator />
-		<UInputNumber placeholder="width" />
-		<UInputNumber placeholder="height" />
+		<UInputNumber placeholder="width" v-model="width" />
+		<UInputNumber placeholder="height" v-model="height" />
 		<WhitelabelLogo :width :height />
 	</EstimateApp>
 </template>

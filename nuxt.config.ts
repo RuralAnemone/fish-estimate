@@ -12,20 +12,20 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/css/main.css"],
-  ui: {
-    theme: {
-      colors: [
-        "primary",
-        "secondary",
-        "tertiary",
+  // ui: {
+  //   theme: {
+  //     colors: [
+  //       "primary",
+  //       "secondary",
+  //       "tertiary",
 
-        "info",
-        "success",
-        "warning",
-        "error"
-      ]
-    }
-  },
+  //       "info",
+  //       "success",
+  //       "warning",
+  //       "error"
+  //     ]
+  //   }
+  // },
 
   modules: [
     '@nuxt/eslint',

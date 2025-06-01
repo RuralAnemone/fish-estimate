@@ -1,5 +1,5 @@
 <template>
-	<div class="flex justify-between h-10">
+	<div class="grid-container">
 		<ULink to="/">
 			<UIcon name="logos:nuxt-icon" />
 		</ULink>
@@ -15,7 +15,19 @@
 </script>
 
 <style lang="scss" scoped>
+div.grid-container {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	align-items: center;
+}
+
 h1 {
 	text-align: center;
+}
+
+// debug:
+div>* {
+	border: 1px solid red;
 }
 </style>

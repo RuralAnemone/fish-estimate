@@ -52,7 +52,7 @@ div.grid-container {
 
 .header-logo-icon {
 	display: block;
-	width: $header-height;
+	width: $header-height; // change this if you're using a wordmark
 	height: 100%;
 }
 

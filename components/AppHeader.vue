@@ -2,7 +2,7 @@
 	<div class="header-container">
 		<div class="grid-container">
 			<div class="grid-item header-logo-container">
-				<ULink class="header-logo-link" to="/estimate">
+				<ULink class="header-logo-link" to="/">
 					<UIcon class="header-logo-icon" name="logos:nuxt-icon" />
 				</ULink>
 			</div>

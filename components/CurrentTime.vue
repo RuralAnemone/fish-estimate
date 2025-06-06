@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { DateTime } from 'luxon'
 	export default {
 		data() {
 			return {
-				now: new Date().toISOString()
+				now: DateTime.now().toString()
 			}
 		},
 		mounted() {
@@ -10,7 +11,7 @@
 		},
 		methods: {
 			updateTime() {
-				this.now = new Date().toISOString()
+				this.now = DateTime.now().toString()
 				requestAnimationFrame(this.updateTime)
 			}
 		}

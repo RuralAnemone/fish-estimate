@@ -6,7 +6,7 @@
 <template>
 	<EstimateApp>
 		<AppHeader title="Hi there!">
-			<UButton class="header-button" to="count">click me!!</UButton>
+			<UButton class="header-button" to="count">click me!! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !</UButton>
 		</AppHeader>
 		<ULink to="load">click me :3</ULink>
 		<USeparator label="HHHHHHHHHHHH" />

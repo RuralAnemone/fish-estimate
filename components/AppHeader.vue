@@ -1,32 +1,45 @@
 <template>
-	<div class="grid-container">
-		<div class="grid-item header-logo-container">
-			<ULink class="header-logo-link" to="/estimate">
-				<UIcon class="header-logo-icon" name="logos:nuxt-icon" />
-			</ULink>
+	<div class="header-container">
+		<div class="grid-container">
+			<div class="grid-item header-logo-container">
+				<ULink class="header-logo-link" to="/estimate">
+					<UIcon class="header-logo-icon" name="logos:nuxt-icon" />
+				</ULink>
+			</div>
+			<div class="grid-item">
+				<h1 class="header-main-text">{{ props.title }}</h1>
+			</div>
+			<div class="grid-item header-third-item">
+				<slot />
+			</div>
 		</div>
-		<div class="grid-item">
-			<h1 class="header-main-text">{{ props.title }}</h1>
-		</div>
-		<div class="grid-item header-third-item">
-			<slot />
-		</div>
+		<USeparator :label="props.separatorProps.label" :icon="props.separatorProps.icon" />
 	</div>
 </template>
 
 <script setup lang="ts">
 	const props = defineProps<{
 		title: string
+		separatorProps: {
+			label?: string
+			icon?: string
+		}
 	}>();
 </script>
 
 <style lang="scss" scoped>
 $header-height: 4rem;
 
+div.header-container {
+	width: 100%;
+	height: $header-height;
+}
+
 div.grid-container {
 	display: grid;
 	width: 100%;
 	height: $header-height;
+	margin-bottom: calc($header-height / 2);
 	grid-template-columns: 10% 1fr 10%;
 	align-items: center;
 }

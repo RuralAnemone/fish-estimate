@@ -28,7 +28,7 @@
 </script>
 
 <style lang="scss" scoped>
-$header-height: 4rem;
+$header-height: 8rem;
 
 div.header-container {
 	width: 100%;
@@ -38,8 +38,8 @@ div.header-container {
 div.grid-container {
 	display: grid;
 	width: 100%;
-	height: $header-height;
-	margin-bottom: calc($header-height / 2);
+	height: calc($header-height / 2);
+	margin-bottom: calc($header-height / 4);
 	grid-template-columns: 10% 1fr 10%;
 	align-items: center;
 }

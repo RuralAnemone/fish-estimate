@@ -58,6 +58,11 @@ div.grid-container {
 	justify-self: right;
 }
 
+.header-third-item > * {
+	max-width: 150%;
+	overflow-wrap: break-word;
+}
+
 .header-logo-link {
 	width: 100%;
 	height: 100%;
@@ -65,7 +70,7 @@ div.grid-container {
 
 .header-logo-icon {
 	display: block;
-	width: $header-height; // change this if you're using a wordmark
+	width: calc($header-height / 2); // change this if you're using a wordmark
 	height: 100%;
 }
 
@@ -78,6 +83,28 @@ div.grid-container {
 .header-third-item > * {
 	width: 100%;
 	height: 100%;
+}
+
+/* medias! */
+
+// tablet-ish. also works ok for mobile.
+@media only screen and (max-width: 900px) {
+	div.header-container {
+		height: calc($header-height / 2);
+	}
+
+	div.grid-container {
+		height: calc($header-height / 4);
+		margin-bottom: calc($header-height / 8);
+	}
+
+	.header-logo-icon {
+		width: calc($header-height / 4);
+	}
+
+	.header-main-text {
+		font-size: calc($header-height / 4);
+	}
 }
 
 // debug:

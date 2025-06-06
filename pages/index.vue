@@ -5,7 +5,7 @@
 
 <template>
 	<EstimateApp>
-		<AppHeader title="hi">
+		<AppHeader title="Hi there!">
 			<UButton>click me!!</UButton>
 		</AppHeader>
 		<ULink to="load">click me :3</ULink>

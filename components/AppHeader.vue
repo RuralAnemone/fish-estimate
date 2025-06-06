@@ -21,10 +21,12 @@
 </script>
 
 <style lang="scss" scoped>
+$header-height: 4rem;
+
 div.grid-container {
 	display: grid;
 	width: 100%;
-	height: 4rem;
+	height: $header-height;
 	grid-template-columns: 10% 1fr 10%;
 	align-items: center;
 }
@@ -50,7 +52,7 @@ div.grid-container {
 
 .header-logo-icon {
 	display: block;
-	width: 50%; // TODO: hacky way for now to make it "not have padding" - width: auto just makes it disappear, also unsetting display: block does weird things... (: good luck!
+	width: $header-height;
 	height: 100%;
 }
 

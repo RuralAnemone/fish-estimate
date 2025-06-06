@@ -1,6 +1,6 @@
 <template>
 	<div class="grid-container">
-		<div class="grid-item">
+		<div class="grid-item header-logo-container">
 			<ULink class="header-logo-link" to="/estimate">
 				<UIcon name="logos:nuxt-icon" />
 			</ULink>
@@ -33,9 +33,16 @@ div.grid-container {
 	height: 100%
 }
 
+.header-logo-container {
+	justify-self: left;
+}
+
+.header-third-item {
+	justify-self: right;
+}
+
 .header-logo-link * {
 	width: 100%;
-	justify-self: start;
 }
 
 .header-main-text {

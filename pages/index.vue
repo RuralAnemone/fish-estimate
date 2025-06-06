@@ -6,7 +6,7 @@
 <template>
 	<EstimateApp>
 		<AppHeader title="Hi there!">
-			<UButton>click me!!</UButton>
+			<UButton class="header-button" to="count">click me!!</UButton>
 		</AppHeader>
 		<ULink to="load">click me :3</ULink>
 		<USeparator label="HHHHHHHHHHHH" />
@@ -15,3 +15,9 @@
 		<WhitelabelLogo :width :height />
 	</EstimateApp>
 </template>
+
+<style>
+.header-button {
+	text-align: center;
+}
+</style>

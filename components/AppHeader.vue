@@ -2,7 +2,7 @@
 	<div class="grid-container">
 		<div class="grid-item header-logo-container">
 			<ULink class="header-logo-link" to="/estimate">
-				<UIcon name="logos:nuxt-icon" />
+				<UIcon class="header-logo-icon" name="logos:nuxt-icon" />
 			</ULink>
 		</div>
 		<div class="grid-item">
@@ -35,14 +35,23 @@ div.grid-container {
 
 .header-logo-container {
 	justify-self: left;
+	width: 100%;
+	height: 100%;
 }
 
 .header-third-item {
 	justify-self: right;
 }
 
-.header-logo-link * {
+.header-logo-link {
 	width: 100%;
+	height: 100%;
+}
+
+.header-logo-icon {
+	display: block;
+	width: 50%; // TODO: hacky way for now to make it "not have padding" - width: auto just makes it disappear, also unsetting display: block does weird things... (: good luck!
+	height: 100%;
 }
 
 .header-main-text {

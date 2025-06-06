@@ -47,7 +47,8 @@ h2 {
 
 .load-button,
 .estimate-buttons > * {
-	font-size: 1rem; // how in the world does this make it bigger
+	font-size: 1rem;
+	/* how in the world does this make it bigger */
 }
 
 .load-button-container {

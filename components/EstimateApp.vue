@@ -15,5 +15,8 @@
 		padding-bottom: 2vh;
 		padding-left: 2vw;
 		padding-right: 2vw;
-	}
+
+		/* derived from margin values; 94=100-(3+3) */
+		height: calc(100vh - (3vh + 3vh));
+}
 </style>

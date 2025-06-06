@@ -1,10 +1,16 @@
 <template>
 	<div class="grid-container">
-		<ULink to="/">
-			<UIcon name="logos:nuxt-icon" />
-		</ULink>
-		<h1 class="">{{ props.title }}</h1>
-		<slot />
+		<div class="grid-item">
+			<ULink to="/">
+				<UIcon name="logos:nuxt-icon" />
+			</ULink>
+		</div>
+		<div class="grid-item">
+			<h1 class="">{{ props.title }}</h1>
+		</div>
+		<div class="grid-item">
+			<slot />
+		</div>
 	</div>
 </template>
 
@@ -18,7 +24,8 @@
 div.grid-container {
 	display: grid;
 	width: 100%;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	height: 4rem;
+	grid-template-columns: 10% 1fr 10%;
 	align-items: center;
 }
 
@@ -27,7 +34,8 @@ h1 {
 }
 
 // debug:
-div>* {
+.grid-container>* {
 	border: 1px solid red;
+	height: 100%
 }
 </style>

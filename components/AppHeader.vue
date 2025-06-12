@@ -13,14 +13,14 @@
 				<slot />
 			</div>
 		</div>
-		<USeparator :label="props.separatorProps.label" :icon="props.separatorProps.icon" />
+		<USeparator :label="props.separatorProps?.label" :icon="props.separatorProps?.icon" />
 	</div>
 </template>
 
 <script setup lang="ts">
 	const props = defineProps<{
 		title: string
-		separatorProps: {
+		separatorProps?: {
 			label?: string
 			icon?: string
 		}

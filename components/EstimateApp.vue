@@ -17,6 +17,7 @@
 		padding-right: 2vw;
 
 		/* derived from margin values; 94=100-(3+3) */
-		height: minmax(calc(100vh - (3vh + 3vh)), auto);
+		/* height: minmax(calc(100vh - (3vh + 3vh)), auto); */
+		min-height: calc(100vh - (3vh + 3vh));
 }
 </style>

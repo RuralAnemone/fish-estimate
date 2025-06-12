@@ -29,15 +29,18 @@ import CurrentTime from '~/components/CurrentTime.vue';
 
 .content {
 	display: grid;
-	height: 80%;
+	height: 60vh; // ??????????????
 	grid-template-rows: 1fr 1fr 2fr;
 	justify-items: center;
 	align-items: center;
+
+	align-content: space-between;
+
+	margin-top: 4rem;
 }
 
 h2 {
 	font-size: 2rem;
-	align-self: flex-end;
 }
 
 .estimate-buttons {
@@ -50,10 +53,5 @@ h2 {
 	font-size: 1rem;
 	/* how in the world does this make it bigger */
 }
-
-.load-button-container {
-	align-self: start;
-}
-
 
 </style>
